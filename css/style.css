@@ -1473,6 +1473,10 @@ nav {
 
 /*----- Features -----*/
 
+#about {
+    padding: 50px 0;
+}
+
 @media (min-width: 992px) {
     .features-row {
         margin-bottom: 70px;
