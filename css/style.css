@@ -1506,7 +1506,10 @@ nav {
 
 /*----- Features -----*/
 
-#about {
+#about,
+#working,
+#why-us,
+#early {
     padding: 50px 0;
 }
 
