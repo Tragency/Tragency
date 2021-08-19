@@ -599,7 +599,8 @@ p {
 }
 
 .parallax-section-5 {
-    background-image: url(../img/backgrounds/bg-5.jpg);
+    /* background-color:; */
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)), url(../img/backgrounds/bg-5.jpg);
 }
 
 .parallax-section-6 {
@@ -1501,6 +1502,13 @@ nav {
 .navbar .social-icon {
     padding-left: 15px;
     padding-right: 0;
+}
+
+
+/* Images */
+
+.img .img-responsive {
+    width: 100%;
 }
 
 
@@ -4012,4 +4020,9 @@ textarea {
     bottom: 9vh;
     transform: translateX(-50%);
     z-index: 1000;
+}
+
+.early-description {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: regular;
 }
