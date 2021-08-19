@@ -80,11 +80,11 @@
                         <fieldset>
                             <h6>Which company would you like to register?</h6>
                             <input name="organization" type="text" id="organization" placeholder="Organization Name" />
-                            <select class="selectpicker countrypicker" data-flag="true" data-default="IN"></select>
+                            <select name="country" class="selectpicker countrypicker" data-flag="true" data-default="IN"></select>
                             <h6>What is your work email address?</h6>
                             <input name="email" type="text" id="email" placeholder="Company Email" />
                             <h6>What service do you offer?</h6>
-                            <select>
+                            <select name="service">
                   <option value="airline">Airline</option>
                   <option value="hotel">Hotel</option>
                   <option value="car-rental">Car Rental</option>
@@ -110,6 +110,8 @@
                             <input name="lname" type="text" id="lname" placeholder="Last Name" />
                             <h6>What is your email?</h6>
                             <input name="email" type="text" id="email" placeholder="Email" />
+                            <h6>What is your phone number?</h6>
+                            <input name="phone" type="tel" id="phone" placeholder="Phone No." />
                         </fieldset>
                         <input type="submit" class="submit" id="submit" value="Pre-book" />
                         <button type="button" class="btn btn-danger btn-scroll" data-dismiss="modal" aria-label="Close">
