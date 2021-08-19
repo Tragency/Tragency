@@ -265,6 +265,40 @@ p {
 }
 
 
+/* Choice pre book */
+
+.pre-book-form-choice {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+
+.pre-book-form-choice h6 {
+    font-size: 20px !important;
+    /* transition: all 0.5s ease; */
+    padding: 4px;
+}
+
+.pre-book-form-choice h6.active {
+    border-bottom: 4px solid #91da32;
+    cursor: default;
+}
+
+.modal-body.form {
+    display: none;
+}
+
+.modal-body.form.active {
+    display: block;
+}
+
+
+/* End choice */
+
+
 /* Preloader */
 
 #loader {

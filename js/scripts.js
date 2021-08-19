@@ -507,3 +507,14 @@ Portfolio
 //       });
 //   });
 // })(jQuery, window, document);
+
+const h6s = document.querySelectorAll(".pre-book-form-choice h6");
+const forms = document.querySelectorAll(".modal-body.form");
+const clickFunc = (e) => {
+  h6s.forEach((h6) => h6.classList.remove("active"));
+  forms.forEach((form) => form.classList.remove("active"));
+  const target = e.target.dataset.target;
+  e.target.classList.add("active");
+  document.getElementById(target).classList.add("active");
+};
+h6s.forEach((h6) => h6.addEventListener("click", clickFunc));
