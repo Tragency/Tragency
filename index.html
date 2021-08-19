@@ -51,10 +51,10 @@
         </div>
     </div>
     <!-- End Preloader -->
-    <button type="button" class="btn btn-primary btn-scroll pre-book" data-toggle="modal" data-target="#exampleModalCenter">
-      Pre-book Now
-    </button>
 
+    <button type="button" class="btn btn-primary btn-scroll pre-book fadeInLeft" data-toggle="modal" data-target="#exampleModalCenter">
+        Pre-book Now
+      </button>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -74,9 +74,18 @@
                         <fieldset>
                             <h6>Which company would you like to register?</h6>
                             <input name="organization" type="text" id="organization" placeholder="Organization Name" />
-                            <select class="selectpicker countrypicker" data-flag="true"></select>
+                            <select class="selectpicker countrypicker" data-flag="true" data-default="IN"></select>
                             <h6>What is your work email address?</h6>
                             <input name="email" type="text" id="email" placeholder="Company Email" />
+                            <h6>What service do you offer?</h6>
+                            <select>
+                                <option value="airline">Airline</option>
+                                <option value="hotel">Hotel</option>
+                                <option value="car-rental">Car Rental</option>
+                                <option value="bus-service">Bus Service</option>
+                                <option value="tour-operator">Tour Operator</option>
+                                <option value="travel-agent">Travel Agent</option>
+                            </select>
                             <h6>What is your name?</h6>
                             <input name="fname" type="text" id="fname" placeholder="First Name" />
                             <input name="lname" type="text" id="lname" placeholder="Last Name" />
@@ -1325,33 +1334,24 @@
                         </form>
                     </div>
                     <div class="col-md-5 wow fadeInLeft">
-                        <!-- <h4>North America :</h4>
-                        <address>
-                795 Folsom Ave, Suite 600<br />
-                San Francisco, CA 94107<br />
-                <abbr title="Phone">P:</abbr> (123) 456-7890
-              </address>
-                        <h4>Europe :</h4>
-                        <address>
-                795 Folsom Ave, Suite 600<br />
-                San Francisco, CA 94107<br />
-                <abbr title="Phone">P:</abbr> (123) 456-7890
-              </address> -->
                         <h4>Contact Us :</h4>
                         <address>
+                            <a href="tel:+91-9510736604">
                 <abbr title="Phone">
                   <strong> Phone </strong>
                 </abbr>
-                +91-9510736604
+                +91-9510736604</a>
                 <br />
+                <a href="mailto:contact@tragency.in">
                 <abbr title="Email">
                   <strong>Email </strong>
                 </abbr>
-                contact@tragency.in <br />
+                contact@tragency.in </a><br />
+                <a href="mailto:Deepanshu@tragency.in">
                 <abbr title="founders_mail">
                   <strong>Founder's Email </strong>
                 </abbr>
-                Deepanshu@tragency.in
+                Deepanshu@tragency.in</a>
               </address>
                     </div>
                 </div>
