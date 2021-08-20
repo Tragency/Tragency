@@ -979,6 +979,15 @@ nav {
     border: none;
 }
 
+.black-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 .navbar-default {
     position: fixed;
     background-color: #fff;
@@ -1043,7 +1052,6 @@ nav {
 }
 
 .navbar-alt .navbar-right {
-    margin-top: 35px;
     margin-bottom: 10px;
 }
 
