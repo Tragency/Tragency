@@ -600,7 +600,7 @@ p {
 
 .parallax-section-5 {
     /* background-color:; */
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)), url(../img/backgrounds/bg-5.jpg);
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/backgrounds/bg-5.jpg);
 }
 
 .parallax-section-6 {
@@ -1266,6 +1266,12 @@ nav {
         margin-top: 7px;
         margin-bottom: 3px;
     }
+    .navbar-brand.to-top {
+        margin-top: 23px;
+    }
+    .navbar-small .navbar-brand.to-top {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1284,6 +1290,10 @@ nav {
     padding: 15px 0 15px 0px;
     font-size: 30px;
     line-height: 20px;
+}
+
+.benefits {
+    color: #327099;
 }
 
 
