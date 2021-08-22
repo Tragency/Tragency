@@ -73,6 +73,7 @@
                     <section class="pre-book-form-choice">
                         <h6 class="active" data-target="org">Travel Business</h6>
                         <h6 data-target="individual">Individual Traveller</h6>
+                        <h6 data-target="business">Business organization</h6>
                     </section>
                 </div>
                 <div class="modal-body form active" id="org">
@@ -80,6 +81,7 @@
                         <fieldset>
                             <h6>Which company would you like to register?</h6>
                             <input name="organization" type="text" id="organization" placeholder="Organization Name" />
+                            <h6>Which country is your organization based in?</h6>
                             <select name="country" class="selectpicker countrypicker" data-flag="true" data-default="IN"></select>
                             <h6>What is your work email address?</h6>
                             <input name="email" type="text" id="email" placeholder="Company Email" />
@@ -95,6 +97,14 @@
                             <h6>What is your name?</h6>
                             <input name="fname" type="text" id="fname" placeholder="First Name" />
                             <input name="lname" type="text" id="lname" placeholder="Last Name" />
+                            <h6>How did you get to know about us?</h6>
+                            <select name="service">
+                  <option value="instagram">Instagram</option>
+                  <option value="friend">Friend</option>
+                  <option value="family">Family</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="other">other</option>
+                </select>
                         </fieldset>
                         <input type="submit" class="submit" id="submit" value="Pre-register" />
                         <button type="button" class="btn btn-danger btn-scroll" data-dismiss="modal" aria-label="Close">
@@ -112,6 +122,51 @@
                             <input name="email" type="text" id="email" placeholder="Email" />
                             <h6>What is your phone number?</h6>
                             <input name="phone" type="tel" id="phone" placeholder="Phone No." />
+                            <h6>How did you get to know about us?</h6>
+                            <select name="service">
+                  <option value="instagram">Instagram</option>
+                  <option value="friend">Friend</option>
+                  <option value="family">Family</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="other">other</option>
+                </select>
+                        </fieldset>
+                        <input type="submit" class="submit" id="submit" value="Pre-register" />
+                        <button type="button" class="btn btn-danger btn-scroll" data-dismiss="modal" aria-label="Close">
+                Cancel
+              </button>
+                    </form>
+                </div>
+                <div class="modal-body form" id="business">
+                    <form method="post" action="https://getform.io/f/20c29c8f-22dc-443e-a3e0-b719a473f0db" name="contactform">
+                        <fieldset>
+                            <h6>Which company would you like to register?</h6>
+                            <input name="organization" type="text" id="organization" placeholder="Organization Name" />
+                            <h6>Which country is your organization based in?</h6>
+                            <select name="country" class="selectpicker countrypicker" data-flag="true" data-default="IN"></select>
+                            <h6>What is your work email address?</h6>
+                            <input name="email" type="text" id="email" placeholder="Company Email" />
+                            <h6>How frequently do you require travel services?</h6>
+                            <input type="radio" id="monthly" name="frequency" value="Monthly" />
+                            <label for="monthly">Monthly</label><br />
+                            <input type="radio" id="weekly" name="frequency" value="Weekly" />
+                            <label for="weekly">Weekly</label><br />
+                            <input type="radio" id="daily" name="frequency" value="Daily" />
+                            <label for="daily">Daily</label>
+                            <br />
+                            <h6>What is your name?</h6>
+                            <input name="fname" type="text" id="fname" placeholder="First Name" />
+                            <input name="lname" type="text" id="lname" placeholder="Last Name" />
+                            <h6>What is your email?</h6>
+                            <input name="email" type="text" id="email" placeholder="Email" />
+                            <h6>How did you get to know about us?</h6>
+                            <select name="service">
+                  <option value="instagram">Instagram</option>
+                  <option value="friend">Friend</option>
+                  <option value="family">Family</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="other">other</option>
+                </select>
                         </fieldset>
                         <input type="submit" class="submit" id="submit" value="Pre-register" />
                         <button type="button" class="btn btn-danger btn-scroll" data-dismiss="modal" aria-label="Close">
@@ -821,7 +876,7 @@
                                             </a>
                                         </li>
                                         <li class="social-icon">
-                                            <a target="_blank" href="mailto:Vihaan@tragency.in">
+                                            <a target="_blank" href="mailto:vihaan.verma@tragency.in">
                                                 <i class="icon-envelope-open"></i>
                                             </a>
                                         </li>
